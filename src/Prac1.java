@@ -5,7 +5,7 @@ public class Prac1 {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in); //스캐너 객체를 생성 : ( Scanner 객체_이름 = new Scanner(System.in); )
 		//객체 생성 방법 : 클래스_이름 객체_이름 = new 클래스_이름();
-		System.out.println("2, 3, 4학년일 경우 햄버거, 그 외에는 김밥을 주세요."); // 예문
+		System.out.println("\"2, 3, 4학년일 경우 햄버거, 그 외에는 김밥을 주세요.\""); // 예문
 
 		System.out.print("몇 학년이신가요? : ");
 		int grade = scn.nextInt(); //nextInt메소드를 사용해 입력 받음
