@@ -26,4 +26,4 @@ public class Prac1 {
 // 4. 현재 진행중인 프로젝트 마우스 오른쪽 클릭 → Properties → Run/Debug Settings 클릭
 // 5. 목록에 나와있는 현재 진행중인 class 선택(마우스 더블 클릭)
 // 6. Arguments  → VM arguments Arguments  → text 작성란 " -Dfile.encoding=MS949 " 입력  → Apply 클릭
-// 7. Common  →  Encoding  → Other 란  " EUC-KR " 입력  → Apply 클릭 →  OK 클
+// 7. Common  →  Encoding  → Other 란  " EUC-KR " 입력  → Apply 클릭 →  OK 클릭
