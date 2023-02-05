@@ -1,18 +1,18 @@
 import java.util.Scanner; //스캐너 클래스를 사용할 것이므로 스캐너 클래스 호출
 
 public class Champ{ //챔피언 인스턴스
-	String q = "";
-	String w = "";
-	String e = "";
-	String r = "";
-	String name = "";
+	String Q = "";
+	String W = "";
+	String E = "";
+	String R = "";
+	String Name = "";
 	
-	Champ(String Q, String W, String E, String R, String Name){ //챔피언을 찍어낼 생성자 틀
-		q = Q;
-		w = W;
-		e = E;
-		r = R;
-		name = Name;
+	Champ(String q, String w, String e, String r, String name){ //챔피언을 찍어낼 생성자 틀
+		Q = q;
+		W = w;
+		E = e;
+		R = r;
+		Name = name;
 	}
 	
 	public static void main(String[] args) {
@@ -25,22 +25,22 @@ public class Champ{ //챔피언 인스턴스
 		int Champion = scn.nextInt(); //nextInt메소드를 사용해 입력 받음
 		
 		if (Champion == 1) {
-			System.out.println(Garen.name + "의 Q스킬은 \"" + Garen.q + "\" 입니다.");
-			System.out.println(Garen.name + "의 W스킬은 \"" + Garen.w + "\" 입니다.");
-			System.out.println(Garen.name + "의 E스킬은 \"" + Garen.e + "\" 입니다.");
-			System.out.println(Garen.name + "의 R스킬은 \"" + Garen.r + "\" 입니다.");
+			System.out.println(Garen.Name + "의 Q스킬은 \"" + Garen.Q + "\" 입니다.");
+			System.out.println(Garen.Name + "의 W스킬은 \"" + Garen.W + "\" 입니다.");
+			System.out.println(Garen.Name + "의 E스킬은 \"" + Garen.E + "\" 입니다.");
+			System.out.println(Garen.Name + "의 R스킬은 \"" + Garen.R + "\" 입니다.");
 		}
 		if (Champion == 2) {
-			System.out.println(Amumu.name + "의 Q스킬은 \"" + Amumu.q + "\" 입니다.");
-			System.out.println(Amumu.name + "의 W스킬은 \"" + Amumu.w + "\" 입니다.");
-			System.out.println(Amumu.name + "의 E스킬은 \"" + Amumu.e + "\" 입니다.");
-			System.out.println(Amumu.name + "의 R스킬은 \"" + Amumu.r + "\" 입니다.");
+			System.out.println(Amumu.Name + "의 Q스킬은 \"" + Amumu.Q + "\" 입니다.");
+			System.out.println(Amumu.Name + "의 W스킬은 \"" + Amumu.W + "\" 입니다.");
+			System.out.println(Amumu.Name + "의 E스킬은 \"" + Amumu.E + "\" 입니다.");
+			System.out.println(Amumu.Name + "의 R스킬은 \"" + Amumu.R + "\" 입니다.");
 		}
 		if (Champion == 3) {
-			System.out.println(Kayle.name + "의 Q스킬은 \"" + Kayle.q + "\" 입니다.");
-			System.out.println(Kayle.name + "의 W스킬은 \"" + Kayle.w + "\" 입니다.");
-			System.out.println(Kayle.name + "의 E스킬은 \"" + Kayle.e + "\" 입니다.");
-			System.out.println(Kayle.name + "의 R스킬은 \"" + Kayle.r + "\" 입니다.");
+			System.out.println(Kayle.Name + "의 Q스킬은 \"" + Kayle.Q + "\" 입니다.");
+			System.out.println(Kayle.Name + "의 W스킬은 \"" + Kayle.W + "\" 입니다.");
+			System.out.println(Kayle.Name + "의 E스킬은 \"" + Kayle.E + "\" 입니다.");
+			System.out.println(Kayle.Name + "의 R스킬은 \"" + Kayle.R + "\" 입니다.");
 		}
 		scn.close();
 	}
